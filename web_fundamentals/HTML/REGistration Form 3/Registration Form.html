@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+   <body>
+        <h1> Registration Form </h1>
+        <form action="/process" method="get">
+             <label type="text"> First Name:* </label> 
+             <input type="text" name="Firstname"> <br>
+        <br>
+             <label> Last Name :* </label> 
+             <input type="text"  name="Lastname" ><br>
+        <br>
+             <label > Email Address:* </label> 
+             <input type="email"  name="email"><br>
+        <br>
+             <label> Password:* </label> 
+             <input type="password" name="password"> <br>
+        <br>
+             <label type=" "> Confim Password </label> 
+             <input type="password" name="password"> <br>
+        <br>
+             <label type="text"> Birthdary: </label>
+             <input type="date"   name="Birthday"><br>
+        <p> Gender Identy </p>
+             <input type="radio"  name="gender" value="male">
+             <label type="text"> Male </label>
+             <input type="radio"   name="gender" value="Female">
+             <label type="text"> Femal </label>
+             <input type="radio"   name="gender"  value="Non-binary">
+             <label type="text"> Non-binary </label>
+             <input type="radio"    name="gender"  value="I prefer not to answer ">
+             <label for=""> I prefer not to answer </label>
+        <p> A short description about my self: </p>   
+            <textarea name="commentaire "  cols="30" rows="10"> </textarea><br>
+        <br>
+             <label for="Promming language"> Favorite language: </label>
+             <select name="Programming language" id="Programming language">
+               <option value="JavaScript">JavaScript</option>
+               <option value="Python">Python</option>
+               <option value="Java">Java</option>
+               <option value="C++">C++</option>
+        </select> 
+        <br>
+        <br>
+                <input type="checkbox">
+                <label type="text"> Yes,I would like to receive periodic email updates </label><br>
+        <br>
+                <input type="submit"  value="Create Account" >
+                <P>* indicates a required field </P>
+        </form>
+      
+    </body>
+</html>
