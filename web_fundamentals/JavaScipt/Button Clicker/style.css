@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: cursive;
+    margin-right: 50px;
+      
+}
+.navbar{
+    width: 710px ;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(204, 204, 204, 1);
+    margin-left: 300px;
+   
+}
+.search{
+    width: 200px;
+    height: 20px;
+}
+.btn{
+    width: 50px;
+    box-shadow: 2px 2px black;
+    background-color: rgba(43, 120, 228, 1);
+    border: 2px solid black;
+    color: white;
+}
+.main{
+    display: flex;
+
+}
+.topleft{
+    width: 450px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 300px; 
+    margin-top: 20px;
+}
+.topright{
+    width: 230px;
+    height: 140px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.topleft p{
+   margin-left: 200px;
+   margin-top :-100px; 
+   font-family: cursive;
+}
+p a {
+    color: rgba(12, 86, 150, 1);
+}    
+
+h2 ,h3, h4 {
+    margin-left: 30px;
+    font-family: cursive;
+    margin-top: 10px;
+}
+.likes{
+    margin-left: 30px;
+    width: 80px;
+    height: 30px;
+    background-color: rgba(242, 202, 78, 1);
+    box-shadow: 4px 4px  black;
+    border-color: black;
+    margin-top: 20px;
+}
+.topright p {
+   margin-left: 20px;
+   margin-top: 30px;
+   font-family:'Times New Roman', Times, serif;
+   
+
+
+}
+.Add{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: cursive;
+    background-color: rgba(147, 196, 125, 1) ;
+    box-shadow: 2px 2px black;
+}
+span{
+   font-family: 'Times New Roman', Times, serif ;
+   font-size: 20px; 
+   font-weight: bolder;     
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="container" >
+        <div class="navbar">
+            <h1>Dojonary</h1>
+            <input class="search" type="text" placeholder="search">
+            <button  id="but"  onclick="logout('but')"   class="btn"> login </button>    
+        </div>
+        <div class="main">
+            <div class="left">
+                <div class="topleft">
+                   <h2> ninja </h2>
+                   <h3 id="noun"> noun </h3>
+                   <h4>plural:ninjas</h4>
+                   <button id="dd"  onclick="aler('dd')"  class="likes"> 13 likes </button>
+                   <p> A participer skilled in the <br> <a href="http://"> japanese </a> art of <a href="">ninjutsu </a> </p>
+                </div>
+                <div class="topleft">
+                    <h2 id="noun" > ninja </h2>
+                   <h3> noun </h3>
+                   <h4>plural:ninjas</h4>
+                   <button class="likes"> 37 likes </button>
+                   <p> A <a href="http://"> programmer </a> who breaks <br> down problems with <a href="">zen</a>-like <br>focus </p>
+                </div>
+            </div>
+            <div class="topright">
+                 <p> Dijonary is <br> defined by <span>YOU</span></p>
+                 <button  id="rr"   onclick="hide('rr')" class="Add"> Add definition </button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
