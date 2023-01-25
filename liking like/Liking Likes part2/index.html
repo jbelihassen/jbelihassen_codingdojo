@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    
+<!-- container start -->
+    <div class=container> 
+        <!-- header start -->
+        <div class= header>
+            <h1>Network</h1>   
+        </div>  
+        
+        <!-- header end -->
+        <!-- main start -->
+        <div class="main"> 
+            
+            <div class="leftmain">
+                <img  onmouseover="remove(this)"   onmouseout="out(this)" class="avatar" src="user-circle.png" alt="Avatar">
+                <br>
+                <br>
+                <a class="link" href="#"> Add a avatar</a>
+                <br>
+                <br>
+                <h2>James Doe</h2>
+            </div>
+            <div class="rightmain"> 
+                <div class="dd">
+                    <div class="topright"><h1>Neil M</h1>
+                    <h3> <span id="cc"> 9 </span>  Like (s)</h3>
+                    <button onclick="like('cc')" class="btn"> like </button></div>
+                    <p>I just set up this new discord bot,let me <br> know what you all think. <a href="#">link</a> </p>
+               
+                </div>
+                 <div class="dd">
+                    <div class="topright">
+                    <h1>Nichole K</h1>
+                    <h3>  <span id="ff">12</span>  Like (s)</h3>
+                    <button onclick="like('ff')"  class="btn"> like </button>
+                    </div>
+                    <p> just finished my <a href="#">next comic</a> check it out. </p>
+               
+                </div>
+                 <div class="dd">
+                    <div class="topright"><h1>Jim R </h1>
+                    <h3>  <span id="kk"> 9 </span>    Like (s)</h3>
+                    <button onclick="like('kk')"  class="btn"> like </button>
+                     </div>
+                    <p>I can't stop listening to the <a id="rr" onclick="rv('rr')"     href="#"> new album.</a> <br> who else is liking it ? </p>
+               
+                </div>
+            </div>
+        
+        </div>
+        <!-- main end -->
+    </div>
+   <script src="script.js"> </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+/* universel.selectorrest.default */
+*{
+    margin: 0px;
+    padding: 0px;
+}    
+/* start styling container */
+.container{
+    margin:0 auto;
+    width: 700px;  
+    
+}
+/* container styling end */
+/* header start  */
+.header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+
+    
+}
+.main{
+    display: flex;
+}
+
+.leftmain{
+    height: 180px;
+    width: 120px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+.avatar {
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+    margin-left: 25px;
+}
+h2{
+    margin-left: 5px;
+}
+.link{
+    margin-left: 15px;
+}
+.rightmain{
+    width: 500px ;
+    
+   
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.topright {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+}
+.btn{
+    padding: 5px 10px;
+    background-color: rgba(255, 217, 102, 1);
+    box-shadow: 3px 3px black;
+}
+
+h3{
+    margin-right: 20px;
+}
+
+.rightmain p{
+    margin-left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;    
+}
+.dd{
+    width: 500px;
+    height: 140px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
